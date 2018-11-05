@@ -1,0 +1,130 @@
+﻿html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom right, #3a1c71, #d76d77, #ffaf7b );
+}
+.main {
+    font-family: 'Goudy Old Style';
+    font-size: 12em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+    .main a {
+        text-decoration: none;
+        color: white;
+        height: 100%;
+        justify-content: center;
+        display: flex;
+    }
+/* Add a black background color to the top navigation */
+.stuff {
+    left:50%;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.mapouter {
+    text-align: right;
+    height: 500px;
+    width: 600px;
+    position: absolute;
+    left: 20%;
+    top: 25%;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none;
+    height: 500px;
+    width: 600px;
+}
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+    /* Style the links inside the navigation bar */
+    .topnav a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+        /* Change the color of links on hover */
+        .topnav a:hover {
+            background-color: #d76d77;
+            color: white;
+        }
+
+/* Add an active class to highlight the current page */
+.active {
+    background-color: #d76d77;
+    color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+/* Style the links inside the navigation bar */
+
+.followMe a:hover {
+    background-color: #d76d77;
+    color: white;
+}
+
+.bottomNav a:hover {
+    background-color: #d76d77;
+    color: white;
+}
+
+.followMe a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 12px;
+}
+.followMe {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+    background-color: #243b55;
+    color: white;
+    text-align: center;
+}
+.bottom {
+    position: fixed;
+    color: gray;
+    text-align: center;
+    bottom: 60px;
+    padding: 14px 16px;
+    width: 100%;
+    text-decoration: none;
+    font-size: 12px;
+}
+.bottom a{
+    padding: 14px 16px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}

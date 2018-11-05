@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-CPCPUG5</Machine>
+    <WindowsUser>Coding</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>556b41e9-4fd5-419c-9abc-35d0ca129bc7</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Coding</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\Coding\source\repos\App1\bld\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>
+    </WindowsSdkPath>
+    <LayoutDir>C:\Users\Coding\source\repos\App1\bin\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>1B014FF333AC129F85925FDEF452F2E117788E72DE64DD4E096AE1C3FD81536F</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>556b41e9-4fd5-419c-9abc-35d0ca129bc7_1.0.0.0_neutral__xt1f0j9e1det2</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>556b41e9-4fd5-419c-9abc-35d0ca129bc7_xt1f0j9e1det2!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>556b41e9-4fd5-419c-9abc-35d0ca129bc7</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Coding</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Coding\source\repos\App1\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-11-05T22:25:07.433</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Coding\source\repos\App1\about.html">
+      <PackagePath>about.html</PackagePath>
+      <Modified>2018-11-05T23:33:54.277</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Coding\source\repos\App1\index.html">
+      <PackagePath>index.html</PackagePath>
+      <Modified>2018-11-05T23:09:21.671</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Coding\source\repos\App1\portfolio.html">
+      <PackagePath>portfolio.html</PackagePath>
+      <Modified>2018-11-05T23:32:06.666</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Coding\source\repos\App1\images\download.png">
+      <PackagePath>images\download.png</PackagePath>
+      <Modified>2018-11-05T21:42:27.979</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Coding\source\repos\App1\images\GitHub-Mark.png">
+      <PackagePath>images\GitHub-Mark.png</PackagePath>
+      <Modified>2018-11-05T21:39:51.122</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Coding\source\repos\App1\images\Twitterbird.png">
+      <PackagePath>images\Twitterbird.png</PackagePath>
+      <Modified>2018-11-05T21:43:16.492</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Coding\source\repos\App1\images\LockScreenLogo.scale-200.png">
+      <PackagePath>images\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2018-09-05T16:54:50.009</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Coding\source\repos\App1\images\SplashScreen.scale-200.png">
+      <PackagePath>images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-09-05T16:54:50.009</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Coding\source\repos\App1\images\Square150x150Logo.scale-200.png">
+      <PackagePath>images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-09-05T16:54:50.009</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Coding\source\repos\App1\images\Square44x44Logo.scale-200.png">
+      <PackagePath>images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-09-05T16:54:50.009</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Coding\source\repos\App1\images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-09-05T16:54:50.009</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Coding\source\repos\App1\images\StoreLogo.png">
+      <PackagePath>images\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-09-05T16:54:50.009</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Coding\source\repos\App1\images\Wide310x150Logo.scale-200.png">
+      <PackagePath>images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-09-05T16:54:50.009</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Coding\source\repos\App1\js\main.js">
+      <PackagePath>js\main.js</PackagePath>
+      <Modified>2018-11-05T19:44:28.522</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Coding\source\repos\App1\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2018-11-05T23:26:23.952</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Coding\source\repos\App1\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-11-05T22:25:07.144</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
